@@ -7,7 +7,7 @@ import (
         "strings"
 )
 
-func SendTwillioErrorAlert(err error) bool {
+func SendTwillioErrorAlert(err error) bool { // Sends Error Through Twillio via SMS
 
         // Set Up Twilio Stuff
         accountSid := os.Getenv("ACCOUNT_SID")
